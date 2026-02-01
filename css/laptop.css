@@ -1,0 +1,31 @@
+@media(max-width:1180px){
+    /* header  */
+    header{
+        padding-inline: 32px;
+    }
+    .burger{
+        display: block;
+    }
+    .menu-open .burger {
+        display: none;
+    }
+    .menu-open .xmark {
+        display: block;
+    }
+    .menu-open .header_nav {
+        left: 0;
+    }
+    .header_nav{
+        position: fixed;
+        top: 98.5px;
+        left: -100%;
+        background-color: #C46A2B;
+        transition: .5s linear;
+    }
+    .header_ul{
+        flex-direction: column;
+        row-gap: 8px;
+        padding: 16px 56px 16px 16px;
+    }
+
+}
