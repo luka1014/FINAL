@@ -83,5 +83,6 @@ https://luka1014.github.io/FINAL
 	•	სახელი,გვარი: Luka Tabatadze
 	•	სტატუსი: Computer Science სტუდენტი
 	•	GitHub: https://github.com/luka1014
-	•	Email: your@email.com
+	•	Email: luka.tabatadze.000@gmail.com
+
 
