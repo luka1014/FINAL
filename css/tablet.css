@@ -1,0 +1,9 @@
+@media(max-width:745px){
+    /* header  */
+    header{
+        padding-inline: 24px;
+    }
+    .header_nav{
+        top: 98.5px;
+    }
+}
