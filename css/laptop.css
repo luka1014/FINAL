@@ -28,16 +28,26 @@
         padding: 16px 56px 16px 16px;
     }
    /* home_section2  */
+   .home_section2{
+    padding: 96px 0 96px 94px;
+    height: 647px;
+    background-color: #1A1A1A;
+}
+.home_sectio2_text{
+    margin-right: 94px;
+}
    .home_cards{
     overflow-x: scroll;
+    
    }
    .home_article{
-    flex: 1 0 220px;
+    flex: 1 0 282px;
    }
-   .guitar_photo{
-    width: 100%;
-    height: 220px;
-    object-fit: cover;
+
+   /* footer   */
+
+   footer{
+    column-gap: 40px;
    }
 
 }

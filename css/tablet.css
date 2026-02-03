@@ -6,4 +6,8 @@
     .header_nav{
         top: 98.5px;
     }
+/* footer  */
+    footer{
+        column-gap: 40px;
+       }
 }

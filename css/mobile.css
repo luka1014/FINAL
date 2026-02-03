@@ -23,6 +23,19 @@
  
 }
 
+   /* footer  */
+
+   footer{
+   padding-block: 32px;
+   flex-direction: column;
+   row-gap: 40px;
+   align-items: center;
+   text-align: center;
+}
+.footer_social_ul{
+    justify-content: center;
+}
+
 
 }
 
@@ -49,5 +62,16 @@
     font-size: 24px;
  
 }
+/* footer  */
+footer{
+    padding-block: 32px;
+    flex-direction: column;
+    row-gap: 40px;
+    text-align: center;
+    align-items: center;
+   }
+.footer_social_ul{
+    justify-content: center;
+   }
 
 }
