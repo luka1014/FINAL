@@ -17,6 +17,40 @@
        .guitar_section_cards {
         grid-template-columns: 1fr;
     }
+
+    /* contact_section  */
+main{
+    padding: 64px 24px;
+    height: 807px;
+}
+.contact_section{
+    flex-direction: column;
+    row-gap: 48px;
+    padding: 16px;
+
+}
+.map_section,.form_section{
+    width:100%;
+
+}
+.contact_title {
+    margin-bottom: 24px;
+    font-size: 32px;
+    line-height: 39px;
+    letter-spacing: 0%;
+}
+.map_section{
+    row-gap: 24px;
+}
+.contact_adress{
+    column-gap: 42px;
+}
+
+iframe{
+
+    height: 200px;
+    
+}
     
 /* footer  */
     footer{

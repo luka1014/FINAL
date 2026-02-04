@@ -29,18 +29,23 @@
     }
    /* home_section2  */
    .home_section2{
-    padding: 96px 0 96px 94px;
-    height: 647px;
-    background-color: #1A1A1A;
+    padding: 96px 0 96px 32px;
+
 }
 
    .home_cards{
     overflow-x: scroll;
+
     
    }
    .home_article{
     flex: 1 0 272px;
    }
+ 
+   
+}
+
+
    /* catalog_main_section  */
    .catalog_main_section {
     padding: 96px 32px;
@@ -53,11 +58,17 @@
     grid-template-columns: 1fr 1fr;
 }
 
+/* contact_section  */
+main{
+    padding:140px 32px;
+}
+.form_section,.map_section{
+    width: 506px;
+}
+
    /* footer   */
 
    footer{
     column-gap: 40px;
    }
   
-
-}
