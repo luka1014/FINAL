@@ -6,8 +6,21 @@
     .header_nav{
         top: 98.5px;
     }
+
+    /* catalog_main_section  */
+    .catalog_main_section {
+        padding-top: 48px;
+    }
+    .none2{
+        display: none;
+       }
+       .guitar_section_cards {
+        grid-template-columns: 1fr;
+    }
+    
 /* footer  */
     footer{
         column-gap: 40px;
        }
+     
 }

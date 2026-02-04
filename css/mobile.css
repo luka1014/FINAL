@@ -23,6 +23,42 @@
  
 }
 
+/* home_section2  */
+.home_sectio2_text{
+    font-size: 24px;
+}
+.home_sectio2_text::after {
+    content: '';
+    position: absolute;
+    left: 50%;                 
+    bottom: -8px;             
+    width: 156px;    
+    height: 2px;              
+    background-color: #05BCCA; 
+    transform: translateX(-50%); 
+
+}
+ /* catalog_main_section  */
+ .catalog_main_section {
+    padding: 32px 20px;
+}
+.guitar_section_cards {
+    margin-block: 40px;
+}
+.filter_span{
+    display: none;
+}
+.sort_btn{
+    width: 36px;
+height: 32px;
+border-radius: 4px;
+
+}
+.none_txt{
+    display: none;
+}
+
+
    /* footer  */
 
    footer{
@@ -35,6 +71,7 @@
 .footer_social_ul{
     justify-content: center;
 }
+
 
 
 }
@@ -58,10 +95,31 @@
     /* home_section1  */
     .main_text,
 .main_text2_color {
-    
     font-size: 24px;
- 
 }
+
+/* home_section2  */
+.home_sectio2_text{
+    font-size: 24px;
+}
+.home_sectio2_text::after {
+    content: '';
+    position: absolute;
+    left: 50%;                 
+    bottom: -8px;             
+    width: 156px;    
+    height: 2px;              
+    background-color: #05BCCA; 
+    transform: translateX(-50%); 
+
+}
+
+ /* catalog_main_section  */
+ .catalog_main_section {
+    padding: 32px 8px;
+}
+
+
 /* footer  */
 footer{
     padding-block: 32px;
@@ -73,5 +131,5 @@ footer{
 .footer_social_ul{
     justify-content: center;
    }
-
+ 
 }

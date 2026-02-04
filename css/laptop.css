@@ -33,21 +33,31 @@
     height: 647px;
     background-color: #1A1A1A;
 }
-.home_sectio2_text{
-    margin-right: 94px;
-}
+
    .home_cards{
     overflow-x: scroll;
     
    }
    .home_article{
-    flex: 1 0 282px;
+    flex: 1 0 272px;
    }
+   /* catalog_main_section  */
+   .catalog_main_section {
+    padding: 96px 32px;
+}
+
+   .none1{
+    display: none;
+   }
+   .guitar_section_cards {
+    grid-template-columns: 1fr 1fr;
+}
 
    /* footer   */
 
    footer{
     column-gap: 40px;
    }
+  
 
 }
