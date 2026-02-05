@@ -28,6 +28,7 @@
         padding: 16px 56px 16px 16px;
     }
    /* home_section2  */
+  
    .home_section2{
     padding: 96px 0 96px 32px;
 
@@ -43,7 +44,7 @@
    }
  
    
-}
+
 
 
    /* catalog_main_section  */
@@ -72,3 +73,4 @@ main{
     column-gap: 40px;
    }
   
+}

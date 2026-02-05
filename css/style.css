@@ -142,6 +142,89 @@ header {
     justify-content: center;
 }
 
+
+.new_text {
+    position: relative;
+    display: inline-block;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 56px;
+    color: #05BCCA;
+    text-decoration: none;
+    overflow: hidden;
+    letter-spacing: 2px;
+}
+
+.new_text {
+    display: inline-block;
+    font-weight: 900;
+    font-size: 48px;
+    letter-spacing: 2px;
+    color: #05BCCA;
+    position: relative;
+    overflow: hidden;
+    text-decoration: none;
+}
+
+ /* animacia  */
+
+.main_text1_color,
+.main_text2_color {
+    display: inline-block;
+    animation: shimmerPulse 4s ease-in-out infinite;
+}
+
+.main_text2_color {
+    animation-delay: 2s; 
+}
+
+@keyframes shimmerPulse {
+    0% {
+        transform: translateY(0) scale(1);
+        filter: brightness(1);
+        text-shadow: 0 0 4px #05BCCA;
+    }
+    25% {
+        transform: translateY(-4px) scale(1.03);
+        filter: brightness(1.2);
+        text-shadow: 0 0 8px #05BCCA;
+    }
+    50% {
+        transform: translateY(0) scale(1.06);
+        filter: brightness(1.1);
+        text-shadow: 0 0 12px #05BCCA;
+    }
+    75% {
+        transform: translateY(-2px) scale(1.03);
+        filter: brightness(1.15);
+        text-shadow: 0 0 8px #05BCCA;
+    }
+    100% {
+        transform: translateY(0) scale(1);
+        filter: brightness(1);
+        text-shadow: 0 0 4px #05BCCA;
+    }
+}
+
+
+.new_text::after {
+    content: '';
+    position: absolute;
+    bottom: -8px;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background: linear-gradient(90deg, #05BCCA, #06D4E4, #05BCCA);
+    background-size: 300% 100%;
+    border-radius: 2px;
+    animation: underlineShimmer 3s linear infinite;
+}
+
+@keyframes underlineShimmer {
+    0% { background-position: 0% 0%; }
+    100% { background-position: 300% 0%; }
+}
+
 /* home_section2  */
 .home_section2 {
     padding: 96px 94px;
@@ -150,6 +233,7 @@ header {
 
 .home_sectio2_text {
     font-weight: 700;
+    font-style: Bold;
     font-size: 36px;
     line-height: 52px;
     letter-spacing: 0%;
@@ -157,10 +241,7 @@ header {
     color: #05BCCA;
     margin-bottom: 64px;
     position: relative;
-    display: inline-block;
-    text-align: center;
-    display: flex;
-    justify-content: center;
+    
 
 }
 
@@ -320,7 +401,6 @@ header {
 }
 /* catalog_main_section  */
 .catalog_main_section {
-    min-height: 1672px;
     background-color: #012426;
     padding: 96px 94px;
 }
@@ -569,12 +649,12 @@ color: #FFFFFF;
 
 /* contact_section  */
 main{
-    padding: 140px 201px;
+    
      height: 720px;
         background-image: url("../images/contact-cover.png");
         background-repeat: no-repeat;
         background-size: cover;
-        background-position: center;
+        background-position: center;padding: 140px 201px;
 }
 
 .contact_section{
@@ -618,6 +698,45 @@ border: 2px solid #FFFFFF;
 
 
 }
+.adress_link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 48px;
+    height: 48px;
+    border-radius: 8px;
+    background: #05BCCA;
+    border: 2px solid #FFFFFF;
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease ;
+}
+
+.adress_link:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 0 12px rgba(5, 188, 202, 0.6), 0 0 20px rgba(5, 188, 202, 0.3);
+    animation: colorShift 1.5s infinite alternate ease-in-out;
+}
+
+@keyframes colorShift {
+    0% {
+        background: #05BCCA;
+        border-color: #FFFFFF;
+    }
+
+    50% {
+        background: #C46A2B;
+        border-color: #FF8C00;
+    }
+
+    100% {
+        background: #05BCCA;
+        border-color: #FFFFFF;
+    }
+}
+
+
+
 
 
 
@@ -674,21 +793,28 @@ letter-spacing: 0%;
 
 }
 
-.submit_btn{
+.submit_btn {
     width: 100%;
-height: 56px;
-border-radius: 10px;
-border: none;
-background-color: #C46A2B;
-font-weight: 400;
-font-size: 16px;
-line-height: 24px;
-letter-spacing: 0%;
-color:  #FFFFFF;
-
-;
-
+    height: 56px;
+    border-radius: 10px;
+    border: none;
+    background-color: #C46A2B;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease ;
 }
+
+.submit_btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 12px rgba(196, 106, 43, 0.6);
+    background-color: #D47A3B;
+}
+
+
 iframe{
     width: 100%;
     height: 264px;
