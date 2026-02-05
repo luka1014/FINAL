@@ -87,6 +87,19 @@ main {
 
 }
 
+@media(max-width:355px){
+    .main_text1_color,
+    .main_text2_color{
+        font-size: 28px;
+    }
+}
+
+/* es media dizainshi ar ewera magram mtavar gverdze teqstis animaciis gamo gaadavwyvite davamato  */
+
+
+
+
+
 @media(max-width:321px){
     /* header  */
     header{
